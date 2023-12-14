@@ -1,0 +1,75 @@
+.c-item {
+   height: 800px;
+}
+
+.c-img {
+   height: 100%;
+   object-fit: cover;
+   filter: brightness(0.6);
+}
+
+.card {
+    transition: all .3s;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    transition: all .2s;
+    content: '';
+    opacity: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #14a098;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+}
+
+.nav-link:hover::after {
+    opacity: 1;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #0f292f;
+}
+
+.navbar-brand,
+.nav-link,
+.nav-link.active {
+    color: #14a098;
+}
+.navbar-text,
+.navbar-brand {
+    color: #fff;
+}
+
+body {
+    background: url(codioful-formerly-gradienta-t-Rt42Wl1RQ-unsplash.jpg);
+}
+
+#packages {
+    color: #cb2d6f;
+}
+
+.logo {
+    transform: translate(-17px);
+}
+
+.form-label {
+    color: #fff;
+}
+
+.form-text {
+    color: #ccc;
+}
+.form-check-label {
+    color: #14a098;
+}
